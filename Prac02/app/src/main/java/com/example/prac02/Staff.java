@@ -4,14 +4,14 @@ import java.util.Date;
 
 public class Staff {
     private String id;
-    private String name;
-    private Date birth_date;
-    private Double salary;
+    private String fullName;
+    private String birthDate;
+    private String salary;
 
-    public Staff(String id, String name, Date birth_date, Double salary) {
+    public Staff(String id, String fullName, String birthDate, String salary) {
         this.id = id;
-        this.name = name;
-        this.birth_date = birth_date;
+        this.fullName = fullName;
+        this.birthDate = birthDate;
         this.salary = salary;
     }
 
@@ -19,31 +19,15 @@ public class Staff {
         return id;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public String getFullName() {
+        return fullName;
     }
 
-    public String getName() {
-        return name;
+    public String getBirthDate() {
+        return birthDate;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Date getBirth_date() {
-        return birth_date;
-    }
-
-    public void setBirth_date(Date birth_date) {
-        this.birth_date = birth_date;
-    }
-
-    public Double getSalary() {
+    public String getSalary() {
         return salary;
-    }
-
-    public void setSalary(Double salary) {
-        this.salary = salary;
     }
 }
