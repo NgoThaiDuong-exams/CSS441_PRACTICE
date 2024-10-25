@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cafe"
+            android:title="Cafe" />
+        <item
+            android:id="@+id/nav_nuoc_ep"
+            android:title="Nuoc ep trai  cay" />
+        <item
+            android:id="@+id/nav_tra"
+            android:title="Tra dac biet" />
+        <item
+            android:id="@+id/nav_banh_ngot"
+            android:title="Banh ngot" />
+        <item
+            android:id="@+id/nav_banh_mat"
+            android:title="Banh mat" />
+        <item
+            android:id="@+id/nav_dang_nhap"
+            android:title="Dang nhap" />
+        <item
+            android:id="@+id/nav_dang_xuat"
+            android:title="Dang xuat" />
+    </group>
+</menu>
